@@ -11,6 +11,7 @@
 1.  **Data Cleaning:** Handled missing values in `tumor_stage` and standardized clinical text labels.
 2.  **Exploration:** Analyzed the relationship between age at diagnosis and survival months.
 3.  **Visualisation:** Built dashboards to display patient demographics.
+4.  **Validation:** Validated the csv file on excel by creating a pivot table
 
 ## Files
 * `breast_cancer_analysis.ipynb`: The Python code used for cleaning.
