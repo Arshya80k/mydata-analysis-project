@@ -1,6 +1,6 @@
 # Breast Cancer Gene Data Analysis
 
-This is my first mini solo project to exercises my newly learned skills technical skills in data analysis.
+This is my first mini solo project to exercises my newly learned technical skills in data analysis.
 
 ## Key Biological Questions
 1. How do expression levels of BRCA1, TP53, ERBB2, and EGFR shift as a tumour progresses from Stage 0 to Stage IV?
