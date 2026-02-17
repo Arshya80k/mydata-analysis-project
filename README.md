@@ -2,17 +2,22 @@
 
 ## This project analyses clinical data from 1903 breast cancer patients to explore survival rates, tumor stages, and gene expression profiles (BRCA1, TP53, etc.).
 
-## Tools Used
-* **Python (Pandas):** For data cleaning, handling missing values and normalisation.
-* **Tableau:** For interactive visualisation (dashboard link to be added).
-* **Excel:** For initial data review.
+## Key Biological Questions
+1. How do expression levels of BRCA1, TP53, ERBB2, and EGFR shift as a tumour progresses from Stage 0 to Stage IV?
 
-## Key Steps
-1.  **Data Cleaning:** Handled missing values in `tumor_stage` and standardized clinical text labels.
-2.  **Exploration:** Analyzed the relationship between age at diagnosis and survival months.
-3.  **Visualisation:** Built dashboards to display patient demographics.
-4.  **Validation:** Validated the csv file on excel by creating a pivot table
+2. Does the age at diagnosis have a different impact on survival in localized versus metastatic cohorts?
+
+3. Can we identify a molecular "switch" in gene expression that indicates a transition to advanced disease?
+
+## Stages
+* **Stage 1: Python Based Engineering** Used Pandas for initial data cleansing such as Handled missing values, narrowing data to only keep the relavent columns, correcting int to str formats and created an initial visualisation to check the data.
+* **Stage 2: Excel Audit & Validation** Before visualising, I performed a second validation using Excel Pivot Tables to verify that mean expression levels across cohorts matched my Python outputs.
+* **Stage 3: Interactive Analytics in Tableau** Built a dashboard that classified patients into Early (0-II) and Advanced (III-IV) cohorts. I implemented dashboard actions to allow for real time filtering, linking molecular signatures directly to survival outcomes.
+
+## Key Findings
+...
 
 ## Files
 * `breast_cancer_analysis.ipynb`: The Python code used for cleaning.
 * `breast_cancer_clinical_data_cleaned.csv`: The processed dataset ready for Tableau.
+* [The Interactive Clinical Dashboard on Tableau Public](https://public.tableau.com/views/breast_cancer_analysis/Dashboard1?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
