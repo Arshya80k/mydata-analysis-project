@@ -1,6 +1,6 @@
 # Breast Cancer Clinical Data Analysis
 
-## This project analyses clinical data from 1903 breast cancer patients to explore survival rates, tumor stages, and gene expression profiles (BRCA1, TP53, etc.).
+This project analyses clinical data from 1903 breast cancer patients to explore survival rates, tumor stages, and gene expression profiles (BRCA1, TP53, etc.).
 
 ## Key Biological Questions
 1. How do expression levels of BRCA1, TP53, ERBB2, and EGFR shift as a tumour progresses from Stage 0 to Stage IV?
