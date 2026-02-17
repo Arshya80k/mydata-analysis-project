@@ -18,6 +18,6 @@ This is my first mini solo project to exercises my newly learned technical skill
 ...
 
 ## Files
-* `breast_cancer_analysis.ipynb`: The Python code used for cleaning.
-* `breast_cancer_clinical_data_cleaned.csv`: The processed dataset ready for Tableau.
+* `breast_cancer_clinical_final_pythonCode.ipynb`: The Python code used for cleaning.
+* `breast_cancer_clinical_final.csv`: The processed dataset ready for Tableau.
 * [The Interactive Clinical Dashboard on Tableau Public](https://public.tableau.com/views/breast_cancer_analysis/Dashboard1?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
